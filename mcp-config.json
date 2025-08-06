@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "bilibili": {
+      "name": "Bilibili API MCP Server",
+      "type": "stdio",
+      "description": "哔哩哔哩 API MCP 服务器",
+      "isActive": true,
+      "command": "uv",
+      "args": [
+        "bilibili-api-mcp-server"
+      ]
+    }
+  }
+}

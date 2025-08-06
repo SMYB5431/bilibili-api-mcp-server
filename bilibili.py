@@ -805,6 +805,11 @@ def search_collection_by_keyword(username: str, keyword: str, count: int = 10) -
         return {"error": f"搜索合集视频失败: {str(e)}"}
 
 
+def main():
+    """MCP 服务器入口点"""
+    mcp.run(transport="stdio")
+
+
 if __name__ == "__main__":
     print("Hello from bilibili-tool-mcp-server!")
-    mcp.run(transport="stdio")
+    main()

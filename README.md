@@ -8,7 +8,35 @@
 
 ## 使用方法
 
+### 方式一：通过 PyPI 使用（推荐）
+
+在任意 MCP client 中配置本 Server，系统会自动下载和启用
+
+```json
+{
+  "mcpServers": {
+    "bilibili": {
+      "type": "stdio",
+      "isActive": true,
+      "command": "uv",
+      "args": [
+        "bilibili-api-mcp-server"
+      ]
+    }
+  }
+}
+```
+
+> 💡 **提示**：您也可以直接使用项目根目录下的 `mcp-config.json` 文件作为配置参考。
+
+### 方式二：本地开发运行
+
 1. clone 本项目
+
+```bash
+git clone https://github.com/SMYB5431/bilibili-api-mcp-server.git
+cd bilibili-api-mcp-server
+```
 
 2. 使用 uv 安装依赖
 
@@ -16,7 +44,7 @@
 uv sync
 ```
 
-3. 在任意 mcp client 中配置本 Server
+3. 在任意 MCP client 中配置本 Server
 
 ```json
 {
@@ -25,7 +53,7 @@ uv sync
       "command": "uv",
       "args": [
         "--directory",
-        "/your-project-path/bilibili-tool-mcp-server",
+        "/your-project-path/bilibili-api-mcp-server",
         "run",
         "bilibili.py"
       ]
@@ -34,7 +62,7 @@ uv sync
 }
 ```
 
-4. 在 client 中使用
+### 开始使用
 
 ## 支持的操作
 
