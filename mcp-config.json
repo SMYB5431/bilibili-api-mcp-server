@@ -5,7 +5,7 @@
       "type": "stdio",
       "description": "哔哩哔哩 API MCP 服务器",
       "isActive": true,
-      "command": "uv",
+      "command": "uvx",
       "args": [
         "bilibili-api-mcp-server"
       ]

@@ -18,7 +18,7 @@
     "bilibili": {
       "type": "stdio",
       "isActive": true,
-      "command": "uv",
+      "command": "uvx",
       "args": [
         "bilibili-api-mcp-server"
       ]
