@@ -50,7 +50,7 @@ uv sync
 {
   "mcpServers": {
     "bilibili": {
-      "command": "uv",
+      "command": "uvx",
       "args": [
         "--directory",
         "/your-project-path/bilibili-api-mcp-server",

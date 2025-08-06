@@ -1,6 +1,6 @@
 [project]
 name = "bilibili-api-mcp-server"
-version = "0.1.2"
+version = "0.1.3"
 description = "用于哔哩哔哩 API 的 MCP（模型上下文协议）服务器，支持多种操作"
 readme = "README.md"
 requires-python = ">=3.12"
